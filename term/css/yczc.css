@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.margin{width:1190px;margin:0 auto;}
+a{cursor: pointer;}
+
+#bodyer{width: 1423px;height: 451px;}
+
+
+#bodyer .margin{border: 1px solid #e0e0e0;height: 416px;}
+#bodyer .margin .head{background: #eee;height: 34px;font-size: 14px;line-height: 34px;color: #333;padding: 0 0 0 15px;border-bottom: 1px solid #e0e0e0;}
+#bodyer .margin .trunk{width: 1188px;height: 380px;display: flex;}
+#bodyer .margin .trunk-left{width: 678px;height: 380px;border-right: 1px solid #e0e0e0;}
+#bodyer .margin .trunk ul{margin: 0 0 0 110px;padding-top: 35px;}
+#bodyer .margin .trunk ul li{width: 472px;height: 61px;}
+#bodyer .margin .trunk ul li .label{width: 120px;height: 59px;line-height: 26px;text-align: right;display: inline-block;}
+#bodyer .margin .trunk ul li .content{width: 350px;height: 59px;float: right;}
+#bodyer .margin .trunk ul li .content input{height:26px;width: 198px;}
+#bodyer .margin .trunk ul li:nth-child(4) input{border: none;background: #b91c2b;border-radius: 5px;width: 136px;height: 32px;color: #fff;}
+#bodyer .margin .trunk ul li:nth-child(4) p{color:#eee;font-size: 12px;margin-top: 5px;}
+#bodyer .margin .trunk-right{width: 380px;height: 505px;margin: 145px auto;text-align: center;}
+#bodyer .margin .trunk-right span:hover{color: #b91c2b;}
+#bodyer .margin .trunk-right p{font-size: 12px;color: #333;}
+#bodyer .margin .trunk-right p:nth-child(1) a{background: #eee;padding: 5px 10px;border: 1px solid #e0e0e0;border-radius: 5px;color: #333;}
+#bodyer .margin .trunk-right p:nth-child(1) a:hover{color: #b91c2b;}
+#bodyer .margin .trunk-right p:nth-child(2){margin-top:20px; }
