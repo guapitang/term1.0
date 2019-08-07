@@ -9,6 +9,36 @@
 <link rel="stylesheet" href="css/public.css" />
 <link rel="stylesheet" href="css/yclb.css" />
 <link rel="stylesheet" href="css/headtail.css" />
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.pagination.js"></script>
+<link rel="stylesheet" href="css/pagination.css" />
+
+<style>
+      .cont{width: 986px;border: 1px solid #999;overflow: hidden;margin: 0 auto;}
+        .cont .box{float:left;width: 246.5px;border: 1px solid #999;box-sizing: border-box;text-align: center;height: 450px;}
+        .box img{width: 225px;height: 225px;}
+        .box span,.box em,.box i{display: block;}
+        .box span{font: 14px/30 "";line-height: 30px;}
+        
+        .box p{margin: 10px 0;line-height: 50px;height: 50px;overflow: hidden;color: #b91c2b;font-size: 30px; }
+        .box i{margin-top: 10px;background: #b91c2b;border-radius: 5px;width: 100px;height: 30px;line-height: 30px;margin: 10px auto 0;color: #fff;}
+        h2{padding: 15px;}
+        h2 small a{color: #fff;background: #b91c2b;padding: 10px;margin-left: 20px;border-radius: 5px;}
+        em{color: #999;}
+</style>
+<script>
+    $(function () {
+            // console.log($(".pagination").pagination);
+            $(".pagination").pagination(24, {
+                items_per_page: 4,
+                prev_text: "上一页",
+                next_text: "下一页",
+                callback: function (index) {
+
+                }
+            })
+        })
+</script>
 <body>
     <div id="head">
         <div class="margin">
@@ -248,9 +278,12 @@
                                 <em>好用</em>
                                 <i>加入购物车</i>
                             </div> -->
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div class="pagination">
+                
+                </div>
         </div>
     </div>
 
@@ -402,6 +435,8 @@
 
 </body>
 <script></script>
+<script src="libs/ajax.js"></script>
+<script src="libs/cookie.js"></script>
 <script>
     class List {
         constructor() {
@@ -471,7 +506,5 @@
 
     new List();
 </script>
-<script src="libs/ajax.js"></script>
 
-<script src="libs/cookie.js"></script>
 </html>

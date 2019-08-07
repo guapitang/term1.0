@@ -8,12 +8,13 @@ a{cursor: pointer;}
 #bodyer .login h3{height: 50px;width: 658px;padding: 25px 0 0 30px;font-size: 16px;}
 #bodyer .login ul{width: 658px;height: 170px;font-size: 12px;}
 #bodyer .login ul li{width: 370px;height: 40px;margin: 0 auto;overflow: hidden;font-size: 0;padding-bottom: 5px;display: flex;}
-#bodyer .login ul li .lable{width: 90px;text-align: right;line-height: 26px;padding-right: 5px;font-size: 14px;vertical-align: top;padding: 0 5px 0;}
+#bodyer .login ul li .lable{width: 90px;text-align: right;line-height: 26px;padding-right: 5px;font-size: 14px;vertical-align: top;padding: 5px 5px 0;}
 #bodyer .login ul li .content{width: 190px;height: 24px;color: #666;line-height: 24px;padding: 4px;}
+#bodyer .login ul li .content input{height:26px;width: 198px;}
 #bodyer .login ul li:nth-child(3){width: 370px;height: 65px;}
 #bodyer .login ul li:nth-child(3) input{height: 32px;width: 85px;background: #b91c2b;margin-left: 103px;margin-top: 10px;color: #fff;border: none;border-radius: 5px;}
 #bodyer .login ul li:nth-child(3) a{height: 16px;font-size: 16px;color: #666;margin-left: 10px;margin-top: 15px;}
-#bodyer .login .parent{border-top: 1px solid #ccc;background: #fafafa;height: 64px;}
+#bodyer .login .parent{border-top: 1px solid #ccc;background: #fafafa;height: 50px;}
 #bodyer .login .parent p{color: #333;padding: 3px 0;margin-left: 20px;}
 #bodyer .login .parent p:nth-child(1){margin-top: 10px;}
 #bodyer .login .parent a{margin-left: 5px;}

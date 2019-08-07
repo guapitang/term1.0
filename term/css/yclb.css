@@ -17,7 +17,7 @@ a{cursor: pointer;}
 #nav .navright ul li:hover{background: #a1a1a1;}
 #nav .navright ul li a{color: #fff;font-size: 14px;line-height: 39px;margin: auto 28px;}
 
-#bodyer{display: flex;height: 1200px;}
+#bodyer{display: flex;}
 #bodyer .location{height: 40px;line-height: 40px;color: #222;}
 #bodyer .myleft{width: 198px;height: 500px;border: 1px solid #a1a1a1;}
 #bodyer .myleft .body{width: 198px;height: 500px;}
@@ -29,7 +29,6 @@ a{cursor: pointer;}
 
 #bodyer .mybox{display: flex;justify-content: space-between;}
 
-#bodyer .myright{width: 980px;height: 1000px;border: 1px solid #a1a1a1;}
 
 
 

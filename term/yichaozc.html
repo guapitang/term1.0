@@ -26,9 +26,9 @@
                 <a>网站导航</a>
             </div>
             <div class="headright">
-                <a>登录</a>
+                <a href="yichaodl.html">登录</a>
                 <span> | </span>
-                <a>注册</a>
+                <a href="yichaozc.html">注册</a>
                 <a><img src=""><i>购物车</i></a>
             </div>
         </div>
@@ -53,7 +53,8 @@
                                 账户名:
                             </div>
                             <div class="content">
-                                <input type="text" placeholder=" 手机 / 邮箱" >
+                                <input type="text" placeholder=" 手机 / 邮箱" id="user">
+                                <p class="cw1">请输入正确信息</p>
                             </div>
                         </li>
                         <li>
@@ -61,7 +62,8 @@
                                 密码:
                             </div>
                             <div class="content">
-                                <input type="password" >
+                                <input type="password"  id="pass">
+                                <p class="cw2">请输入密码 6-12位</p>
                             </div>
                         </li>
                         <li>
@@ -69,16 +71,19 @@
                                 再次输入密码:
                             </div>
                             <div class="content">
-                                <input type="password" >
+                                <input type="password" id="ps2" >
+                                <p class="cw3">与密码不同 请重新输入</p>
                             </div>
                         </li>
                         <li>
                             <div class="label"></div>
                                <div class="content">
-                                    <input type="submit" value="同意协议并注册"/>
+                                    <input type="submit" value="同意协议并注册"  id="sub"/>
                                     <p><a>《亿超服务协议》</a></p>
                                </div> 
                         </li>
+                        <p>注册的状态：<i></i></p>
+
                     </ul>
                 </div>
                 <div class="trunk-right">
@@ -235,4 +240,62 @@
     </div>
 
 </body>
+<script src="js/jquery.1.12.4.js"></script>
+<script src="js/zc.js"></script>
+<script>
+    class Login {
+            constructor() {
+                // 注册的接口
+                this.url = "http://api.icodeilife.cn:81/user";
+                // 获取元素
+                this.user = $("#user");
+                this.pass = $("#pass");
+                this.ps2 = $("#ps2");
+                this.sub = $("#sub");
+                this.state = $("p i");
+                // 绑定点击事件
+                this.addEvent();
+            }
+            addEvent() {
+                var that = this;
+                this.sub.click(function () {
+                    // 开启ajax
+                    that.load()
+                })
+            }
+            load() {
+                // 请求注册接口
+                $.ajax({
+                    url: this.url,
+                    data: {
+                        type: "register",
+                        user: this.user.val(),
+                        pass: this.pass.val(),
+                        ps2: this.ps2.val(),
+                    },
+                    success: (res) => {
+                        // 请求成功之后，解析数据，根据数据的返回信息，决定不同的状态
+                        res = JSON.parse(res);
+                        console.log(res);
+                        if (res.code == 0) {
+
+                            this.state.html("注册失败，请重新注册");
+
+                        } else if (res.code == 1) {
+
+                            this.state.html("注册成功，5秒后跳转到<a href='yichaodl.html'>登录</a>");
+                            setTimeout(() => {
+                                location.href = "yichaodl.html"
+                            }, 5000);
+
+                        }
+                    }
+                })
+            }
+        }
+
+        new Login();
+
+</script>
+
 </html>

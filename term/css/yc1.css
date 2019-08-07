@@ -1,7 +1,12 @@
 @charset "utf-8";
 
+.p2{display: none;}
 .margin{width:1190px;margin:0 auto;}
 a{cursor: pointer;}
+
+#sta{position: fixed;top:100px;left:30px;background: #b91c2b;text-align: center;z-index:999999;border-radius: 5px;}
+#sta p a{height: 20px;width: 30px;color: #fff;margin: 10px;padding: 10px;display: block;border-bottom: 1px dashed #999; }
+#sta p a:nth-child(1){margin-top: 0;}
 
 #nav{background: #222;height: 40px;}
 #navs{width: 1190px;display: flex;}
@@ -24,7 +29,8 @@ a{cursor: pointer;}
 #banner .imgbox img:nth-child(1){left:0;}
 #banner .btns input{display: block;width: 50px;height:50px;border: none;background: rgba(100, 100, 100, .6);position: absolute;top:225px;}
 #left{left: 640px;z-index:111;}
-#right{right: 120px;} 
+#right{right: 120px;}
+
 
 #banner .tab{width:200px;height: 500px;position: absolute;top: 0;left: 417px;}
 #banner .tab-menu{}

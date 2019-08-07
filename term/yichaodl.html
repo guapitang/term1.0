@@ -26,9 +26,9 @@
                 <a>网站导航</a>
             </div>
             <div class="headright">
-                <a>登录</a>
+                <a href="yichaodl.html">登录</a>
                 <span> | </span>
-                <a>注册</a>
+                <a href="yichaozc.html">注册</a>
                 <a><img src=""><i>购物车</i></a>
             </div>
         </div>
@@ -49,24 +49,26 @@
                 <ul>
                     <li>
                         <div class="lable">账户名</div>
-                        <div class="content"><input type="text" defaultvalue="邮箱/手机号"/></div>
+                        <div class="content"><input type="text" id="user" placeholder=" 手机 / 邮箱" /></div>
                     </li>
                     <li>
                         <div class="lable">密码</div>
-                        <div class="content"><input type="password"/></div>
+                        <div class="content"><input type="password" id="pass"/></div>
                     </li>
                     <li>
-                        <input type="submit" value="登录"/>
+                        <input type="submit" value="登录" id="sub" />
                         <a>忘记密码?</a>
                     </li>
                 </ul>
+                <p>登录的状态：<i></i></p>
+
                 <div class="parent">
                     <p>联合登录<a><img src="img/icon_alipay.jpg" /><span>支付宝登录</span></a></p>
                     <p>还不是会员?<a><span>免费注册</span></a></p>
                 </div>
             </div>
             
-        </div>
+        </div> 
     </div>
 
     <div id="foot">
@@ -212,7 +214,9 @@
             Coryright 杭州亿超电子商务有限公司 All Rights Reserved 浙ICP备12039237;增值电信业务经营许可证：浙B2-20110007
         </div>
     </div>
+
 </body>
-<script>
-</script>
+<script src="js/jquery.1.12.4.js"></script>
+<script src="js/dl.js"></script>
+
 </html>
