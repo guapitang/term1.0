@@ -58,3 +58,18 @@ for (var i = 0; i < mspan.length; i++) {
         mtab[this.index].style.display = "block";
     }
 }
+
+var ali = document.querySelectorAll(".xq-r .xq1");
+var xqtab = document.querySelectorAll(".xq-r .xq2");
+
+for (var i = 0; i < ali.length; i++) {
+    ali[i].index = i;
+    ali[i].onmouseover = function () {
+        for (var j = 0; j < ali.length; j++) {
+            ali[j].className = "";
+            xqtab[j].style.display = "none";
+        }
+        this.className = "active";
+        xqtab[this.index].style.display = "block";
+    }
+}

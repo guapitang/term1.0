@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+.margin{width:1190px;margin:0 auto;}
+a{cursor: pointer;}
+
+#nav{background: #222;height: 40px;}
+#navs{width: 1190px;display: flex;}
+
+#nav .navleft{width:200px;height: 40px;background: #b91c2b;display: block;text-align: center;}
+#nav .navleft img{margin: 0 0 1px 3px;}
+#nav .navleft i{font-size: 12px;color: #fff;line-height: 40px;}
+#nav .navleft .nav-one{z-index: 300;}
+
+#nav .navright{float:right;width:990px;height: 40px;}
+#nav .navright ul{height: 40px;}
+#nav .navright ul li{line-height: 40px;float: left;cursor: pointer;}
+#nav .navright ul li:hover{background: #a1a1a1;}
+#nav .navright ul li a{color: #fff;font-size: 14px;line-height: 39px;margin: auto 28px;}
+
+#bodyer{display: flex;height: 1200px;}
+#bodyer .location{height: 40px;line-height: 40px;color: #222;}
+#bodyer .myleft{width: 198px;height: 500px;border: 1px solid #a1a1a1;}
+#bodyer .myleft .body{width: 198px;height: 500px;}
+#bodyer .myleft .body dt{width: 198px;height: 38px;background: #e5dedb;border-bottom: 1px solid #fff;font-size: 14px;font-weight: bold;color: #333;}
+#bodyer .myleft .body dt:hover+dd{display: block;}
+#bodyer .myleft .body dd{display: none;}
+#bodyer .myleft .body dd .ddbox h3{font-size: 14px;color: #333;padding-left: 19px;}
+#bodyer .myleft .body dd .ddbox li{font-size: 12px; color: #666;margin-left: 19px;display: inline-block;height: 16px;line-height: 16px;margin: 10px 0 0 19px;overflow: hidden;}
+
+#bodyer .mybox{display: flex;justify-content: space-between;}
+
+#bodyer .myright{width: 980px;height: 1000px;border: 1px solid #a1a1a1;}
+
+
+
+

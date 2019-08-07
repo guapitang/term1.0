@@ -2,11 +2,8 @@
 
 .margin{width:1190px;margin:0 auto;}
 a{cursor: pointer;}
-
 #bodyer{width: 1423px;height: 373px;}
 #bodyer .margin{background: url(../img/login-bg.png) no-repeat 220px 60px;width: 690px;padding: 0 70px 30px 620px;height:338px; }
-
-
 #bodyer .login{width: 660px;height: 310px;border: 1px solid #ccc;color: #333;}
 #bodyer .login h3{height: 50px;width: 658px;padding: 25px 0 0 30px;font-size: 16px;}
 #bodyer .login ul{width: 658px;height: 170px;font-size: 12px;}
@@ -21,5 +18,6 @@ a{cursor: pointer;}
 #bodyer .login .parent p:nth-child(1){margin-top: 10px;}
 #bodyer .login .parent a{margin-left: 5px;}
 #bodyer .login .parent span{color: #006697;}
+
 
 

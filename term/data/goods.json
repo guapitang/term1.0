@@ -1,65 +1,51 @@
 ﻿[
 	{
-		       "name":"商品1",
-	            "price":"100",
-	            "url":"img/head2.jpg",
+				"url":"img/lnew1.jpg",
+	            "price":"458.00",
+		        "name":"亿超 纯钛 全框眼镜框 黑色 休闲商务男款 FG80102C1",
 				"goodsId":"adada",
-				"tip":"好用aaaaa1"
 	},
 	{
-	            "name":"商品2",
-	            "price":"100",
-	            "url":"img/head2.jpg",
+	            "name":"亿超网红新款太阳镜男时尚复古墨镜 男女通用YC2205C01玄青黑",
+	            "price":"239.00",
+	            "url":"img/lnew1.2.jpg",
 				"goodsId": "adaada",
-	            "tip":"好用1"
 	},
 	{
-	             "name":"商品3",
-	            "price":"100",
-	            "url":"img/head2.jpg",
+	             "name":"亿超 注塑PC片 运动眼镜护目滑雪镜 白/炫彩 防风防雾男女款G103BAI",
+	            "price":"138.00",
+	            "url":"img/lnew1.3.jpg",
 				"goodsId": "adaadadaa",
-	            "tip":"好用1"
 	},
 	{
-	            "name":"商品4",
-	            "price":"100",
-	            "url":"img/head2.jpg",
+	            "name":"亿超 纯钛 全框眼镜框 黑色 休闲商务男款 FG80101C1",
+	            "price":"158.00",
+	            "url":"img/lnew2.2.jpg",
 				"goodsId": "adaaadsdaa",
-	            "tip":"好用1"
 	},
 	{       
-	            "name":"商品5",
-	            "price":"100",
-	            "url":"img/head2.jpg",
+	            "name":"亿超 纯钛 半框眼镜框 黑色 休闲男士 FG80104C1",
+	            "price":"278.00",
+	            "url":"img/lnew2.1.jpg",
 				"goodsId": "adaadagsa",
-	            "tip":"好用1"
 	},
 	{
-	            "name":"商品6",
-	            "price":"100",
-	            "url":"img/head2.jpg",
+	            "name":"海昌星眸日抛20片装",
+	            "price":"140.00",
+	            "url":"img/lnew3.1.jpg",
 				"goodsId": "adaadghagsa",
-	            "tip":"好用1"
 	},
 	{
-	            "name":"商品7",
-	            "price":"100",
-	            "url":"img/head2.jpg",
+	            "name":"海昌SHE润眼液5ml",
+	            "price":"10.00",
+	            "url":"img/lnew3.2.jpg",
 				"goodsId": "ada13adagsa",
-	            "tip":"好用1"
 	},
 	{
-	            "name":"商品8",
-	            "price":"100",
-	            "url":"img/head2.jpg",
+	            "name":"依视路1.591变灰色宇宙非球钻晶A3眼镜片",
+	            "price":"1666.00",
+	            "url":"img/jp2.jpg",
 				"goodsId": "adaatadzdagsa",
-	            "tip":"好用1"
-	},
-	{
-	            "name":"商品9",
-	            "price":"100",
-	            "url":"img/head2.jpg",
-				"goodsId": "adaadajjngsa",
-	            "tip":"好用1"
-	}
+	            "tip":"已经经过层层验证，确定为依视路正品，很好价格实惠。"
+	}	
 ]

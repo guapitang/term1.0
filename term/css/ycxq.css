@@ -16,3 +16,62 @@ a{cursor: pointer;}
 #nav .navright ul li{line-height: 40px;float: left;cursor: pointer;}
 #nav .navright ul li:hover{background: #a1a1a1;}
 #nav .navright ul li a{color: #fff;font-size: 14px;line-height: 39px;margin: auto 28px;}
+
+#bodyer{margin-top: 10px;}
+#bodyer .head{padding: 10px 0 10px;}
+
+#bodyer .trunk{width: 1190px;height: 508px;margin: 0 0 25px;display: flex;}
+#bodyer .trunk .trunkleft{width: 400px;height: 496px;display: flex;}
+
+#bodyer .trunk .trunkleft .s_box{width:398px;height: 398px;position:absolute; border: 1px solid #a1a1a1;}
+#bodyer .trunk .trunkleft .s_box img{width: 398px;height: 398px;}
+#bodyer .trunk .trunkleft .s_box span{display: none; position: absolute;left: 0;top: 0;background: rgba(200,200,200,.8)}
+#bodyer .trunk .trunkleft .s_box p{width: 398px;height: 398px;margin: 0;position: absolute;left: 0;top: 0;z-index: 1;}
+#bodyer .trunk .trunkleft .b_box{display: none; width: 525px;height: 398px;position: absolute;left: 525px;top: 230px;overflow: hidden;border: 1px solid #a1a1a1;}
+#bodyer .trunk .trunkleft .b_box img{width:800px;position: absolute;}
+
+#bodyer .trunk .trunkleft ul{height: 64px;width: 360px;position: absolute;left: 127px;top: 640px;}
+#bodyer .trunk .trunkleft ul li{height: 64px;width: 64px;float: left;margin-left: 10px;}
+#bodyer .trunk .trunkleft ul li img{width: 60px;height: 60px;border:1px solid #a1a1a1 ;}
+
+#bodyer .trunk .trunkmid{width: 525px;height: 393px;margin-left: 30px;}
+#bodyer .trunk .trunkmid strong{font-size: 16px;width: 100%;margin-top: 10px;display: block;}
+#bodyer .trunk .trunkmid p{padding: 20px 16px;}
+#bodyer .trunk .trunkmid p span{color: hsl(0, 0%, 60%);font-size: 14px;}
+#bodyer .trunk .trunkmid p span:nth-child(2){color: #d10000;padding: 0 15px;font-size: 30px;}
+#bodyer .trunk .trunkmid p span:nth-child(4){text-decoration:line-through;}
+#bodyer .trunk .trunkmid .pinjia{margin: 0 16px;padding: 16px 0;border-top: 1px dashed #ccc;border-bottom: 1px dashed #ccc;}
+#bodyer .trunk .trunkmid .pinjia li{float: left;margin-top: -10px;color: #333;width: 160px;text-align: center;border-right: 1px solid #ccc;font-size: 14px;}
+#bodyer .trunk .trunkmid .pinjia li:nth-last-child(1){border: none;}
+#bodyer .trunk .trunkmid .pinjia li span{color: #b91c2b;}
+#bodyer .trunk .trunkmid .yanse a{padding: 5px 10px;border: 1px solid #ccc;margin: 0 5px;}
+#bodyer .trunk .trunkmid img{margin-top: 30px;}
+#bodyer .trunk .trunkmid img:nth-child(1){margin-left: 30px;}
+#bodyer .trunk .trunkmid h4{padding: 7px 3px;margin-top: 5px;}
+#bodyer .trunk .trunkmid .fuwu{border-top: 1px dashed #ccc;}
+#bodyer .trunk .trunkmid .fuwu h5{margin-top: 20px;padding-bottom: 10px;}
+#bodyer .trunk .trunkmid .fuwu span{font-weight: bold;margin: 5px;color: #999;font-size: 12px;}
+
+#bodyer .trunk .trunkright{width: 233px;height: 503px;background: #f2f2f2;}
+#bodyer .trunk .trunkright img{width: 100%;}
+#bodyer .trunk .trunkright h3{height: 30px;width: 230px;text-align: center;color: #333;margin-top: 20px;font-size: 16px;}
+#bodyer .trunk .trunkright p{height: 30px;width: 230px;text-align: center;color: #666;font-size: 12px;}
+#bodyer .trunk .trunkright .city{width: 200px;margin-left: 30px;text-align: left;height: 230px;overflow: auto;font-size: 14px;color: #666;}
+#bodyer .trunk .trunkright .city li{float: left;width: 80px;padding: 0 5px;height: 30px;font-size: 14px;color: #666;}
+
+#xq .margin{display: flex;}
+#xq .xq-l{width: 195px;height: 470px;background: #eee;}
+#xq .xq-l hr{display: inline-block;width: 63px;line-height: 36px;color: #d3d3d3;}
+#xq .xq-l strong{padding: 0 2px;height: 36px;line-height: 36px;color: #666;}
+#xq .xq-l img{height: 122px;width: 122px;margin-left: 35px;margin-top: 20px;}
+#xq .xq-l p{margin-left: 35px;}
+
+#xq .xq-r{width: 990px;height: 800px;border: 1px solid #a1a1a1;}
+#xq .xq-r ul{width: 990px;height: 33px;border-bottom: 1px solid #a1a1a1;}
+#xq .xq-r ul li{float: left;color: #333;font-weight: bold;padding: 0 28px;font-size: 16px;line-height: 33px;border-right: 1px solid #a1a1a1;}
+#xq .xq-r ul li:hover{background: #f5f3f0;}
+#xq .xq2{display: none;}
+#xq .xq2:nth-child(2){display: block;}
+#xq .xq2:nth-child(3){display: none;}
+#xq .xq2:nth-child(4){display: none;}
+
