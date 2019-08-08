@@ -2,6 +2,7 @@
 
 .margin{width:1190px;margin:0 auto;}
 a{cursor: pointer;}
+img{cursor: pointer;}
 
 #nav{background: #222;height: 40px;}
 #navs{width: 1190px;display: flex;}
