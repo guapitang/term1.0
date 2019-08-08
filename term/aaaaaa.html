@@ -6,7 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+<style>
+    img{height: 80px;width: 80px;}
+</style>
 <body>
+    <img src="img/fdj.jpg" id="tpb1">
+    <img src="img/fdj.jpg" id="tpb2">
+
     
+    <img src="img/fdj.jpg" id="tpx">
+    <img src="img/fdj2.jpg" id="tpy">
+    <img src="img/fdj3.jpg" id="tpz">
 </body>
+<script>
+    var oimg = document.getElementById("tpx");
+    var aimg = document.getElementById("tpy");
+    var mimg = document.getElementById("tpz")
+
+
+    oimg.onclick = function(){
+        document.getElementById("tpb1").src = "img/fdj.jpg ";
+        document.getElementById("tpb2").src = "img/fdj.jpg ";
+
+    }
+
+
+    aimg.onclick = function(){
+        document.getElementById("tpb1").src = "img/fdj2.jpg ";
+        document.getElementById("tpb2").src = "img/fdj2.jpg ";
+
+    }
+    
+    mimg.onclick = function(){
+        document.getElementById("tpb1").src = "img/fdj3.jpg ";
+        document.getElementById("tpb2").src = "img/fdj3.jpg ";
+
+    }
+</script>
 </html>
