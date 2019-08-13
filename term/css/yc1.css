@@ -52,7 +52,7 @@ a{cursor: pointer;}
 #new1 .new1top span{float: left;display: block;line-height: 30px;margin: 0 5px 3px 5px;cursor: pointer;color: #000;}
 #new1 .new1top span:hover{border-bottom: #b91c2b 2px solid;}
 
-#new1 .new1bot{display: flex;justify-content: space-between;width: 1190px;}
+#new1 .new1bot{display: flex;justify-content: space-between;width: 1190px;height:630px;overflow: hidden;}
 #new1 .new1bot .botleft{float: left;width: 290px;height: 640px;margin-top: 14px;}
 #new1 .new1bot .botright{float: left;width: 900px;height: 620px;margin-top: 9px;}
 #new1 .new1bot .botright ul{}

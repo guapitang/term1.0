@@ -56,26 +56,21 @@ osub.onclick = function () {
 
 class Login {
     constructor() {
-        // 注册的接口
         this.url = "http://api.icodeilife.cn:81/user";
-        // 获取元素
         this.user = $("#user");
         this.pass = $("#pass");
         this.ps2 = $("#ps2");
         this.sub = $("#sub");
         this.state = $("p i");
-        // 绑定点击事件
         this.addEvent();
     }
     addEvent() {
         var that = this;
         this.sub.click(function () {
-            // 开启ajax
             that.load()
         })
     }
     load() {
-        // 请求注册接口
         $.ajax({
             url: this.url,
             data: {
@@ -85,7 +80,6 @@ class Login {
                 ps2: this.ps2.val(),
             },
             success: (res) => {
-                // 请求成功之后，解析数据，根据数据的返回信息，决定不同的状态
                 res = JSON.parse(res);
                 console.log(res);
                 if (res.code == 0) {
